@@ -1,0 +1,143 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .blog__wrappers {
+        margin: 0;
+    }
+}
+
+/* Normal desktop :1300px. */
+@media (min-width: 1200px) and (max-width: 1400px) {
+    .header-right {
+        background: none;
+    }
+
+    .skill__img img {
+        max-width: 100%;
+        margin-left: 0;
+    }
+}
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .project--details__info {
+        padding: 6px 30px;
+        margin: 0px;
+        margin-top: 0;
+    }
+
+    .single-post .page-title .breadcrumb-title {
+        padding: 0 40px;
+    }
+
+}
+
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .blog__details-wrapper {
+        margin: 0;
+    }
+
+    .project--details__info {
+        padding: 6px 30px;
+        margin: 0px;
+        margin-top: 0;
+    }
+
+    .project--details__info ul li h4 {
+        font-size: 21px;
+    }
+
+    .project--details__info ul li {
+        padding: 24px 10px;
+    }
+
+    .blog__wrapper {
+        margin-right: 0;
+    }
+
+    .single-post .page-title .breadcrumb-title {
+        padding: 0px;
+    }
+
+}
+
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    .blog__wrapper {
+        margin: 0;
+    }
+
+    .blog__details-wrapper {
+        margin: 0;
+    }
+
+    blockquote {
+        padding: 25px;
+    }
+
+    .project--details__info {
+        padding: 6px 30px;
+        margin: 0px;
+        margin-top: 0;
+    }
+
+    .project--details__info ul li {
+        padding: 12px 15px;
+        width: 100%;
+        float: none;
+    }
+
+    .project--details__info ul li h4 {
+        font-size: 22px;
+    }
+
+    .admin-bar .header-menu-2.sticky-menu {
+        margin-top: 0;
+    }
+
+    .admin-bar .header-menu.header-sticky.mt-0.sticky-menu {
+        margin-top: 0px;
+    }
+
+    .admin-bar .header-menu.header-sticky.sticky-menu {
+        margin-top: 0;
+    }
+
+    .single-post .page-title .breadcrumb-title {
+        padding: 0px;
+        font-size: 30px;
+    }
+
+    .single-post .breadcrumb-menu {
+        display: none;
+    }
+
+
+}
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 550px) and (max-width: 767px) {
+    .blog__wrappers {
+        margin: 0;
+    }
+
+    .project--details__info ul li {
+        width: 50%;
+        float: left;
+    }
+
+    .admin-bar .header-menu-2.sticky-menu {
+        margin-top: 46px;
+    }
+
+    .admin-bar .header-menu.header-sticky.sticky-menu {
+        margin-top: 46px;
+    }
+
+    .admin-bar .mobile-header.header-sticky.z-index.d-lg-none.sticky-menu {
+        margin-top: 46px;
+    }
+
+}
